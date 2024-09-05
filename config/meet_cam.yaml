@@ -1,0 +1,30 @@
+intrinsic_controls:                 
+    focus_auto: 0
+    focus_absolute: 35
+    # exposure_auto_priority: true
+    # exposure_auto: 1
+    # exposure_absolute: 1000
+    # white_balance_temperature_auto: true
+    power_line_frequency: 3
+
+    ignore: [
+        brightness,
+        contrast,
+        saturation,
+        hue, 
+        gain,
+        sharpness,
+        backlight_compensation,
+        # white_balance_temperature,
+        # white_balance_red_component, 
+        # white_balance_blue_component, 
+        # focus_absolute, 
+        exposure_auto, 
+        exposure_absolute,
+        pan_absolute,
+        tilt_absolute,
+        zoom_absolute, 
+        zoom_continuous, 
+        pan_speed, 
+        tilt_speed
+    ]
